@@ -7,20 +7,27 @@ package magasin;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 
 /**
  *
  * @author khali
  */
+@ManagedBean
+@RequestScoped
 public class Lordinateur {
     static List<Ordinateur> listordinateur=new ArrayList<Ordinateur>();
 
-    public static List<Ordinateur> getListordinateur() {
+    public  List<Ordinateur> getListordinateur() {
         return listordinateur;
     }
 
     public Lordinateur() {
     }
+    
+    
+    
     public String createOrdinateur(Ordinateur or)
     {
         listordinateur.add(or);
