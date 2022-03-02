@@ -32,7 +32,7 @@ public class Lordinateur {
     {
         listordinateur.add(or);
         
-  return "ordinateur.xhtml?faces-redirect=true";    
+  return "ordinateurs.xhtml?faces-redirect=true";    
     
     
     }
