@@ -22,14 +22,14 @@ public class LCarte {
     public LCarte() {
     }
 
-    public static List<Carte> getListcartes() {
+    public  List<Carte> getListcartes() {
         return listcartes;
     }
     
     public String createCarte(Carte c)
     {
     listcartes.add(c);
-    return "cartes.xhtml?jsf-redirect=true";
+    return "cartes.xhtml?faces-redirect=true";
     
     }
     

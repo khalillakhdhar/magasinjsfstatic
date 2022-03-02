@@ -31,8 +31,8 @@ public class Lordinateur {
     public String createOrdinateur(Ordinateur or)
     {
         listordinateur.add(or);
-        return "ordinateurs.xhtml?jsf-redirect=true";
-    
+        
+  return "ordinateur.xhtml?faces-redirect=true";    
     
     
     }
